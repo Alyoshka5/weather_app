@@ -9,13 +9,30 @@
 </head>
 <body>
 
-    <form class="weather-form">
-        <label for="location-input">Location</label>
-        <input type="text" name="location-input">
-        <button type="submit">Get Weather</button>
-    </form>
-    
+    <div class="main-info">
+        <div class="temperature"></div>
+        <div class="location"></div>
+        <div class="looks"><img class="looks-image" src="" alt=""><div class="look-main"></div></div>
+        
+    </div>
 
+    
+    <div class="side-bar">
+        <form class="weather-form">
+            <input type="text" name="location-input" placeholder="Search location">
+            <button type="submit">🔍</button>
+        </form>
+        
+        <h4>Weather details</h4>
+        <div class="secondary-detail-div looks-description"><span class="data"></span></div>
+        <div class="secondary-detail-div feels-like"><span class="title">Feels like</span><span class="data"></span></div>
+        <div class="secondary-detail-div highest-temperature"><span class="title">Highest temperature</span><span class="data"></span></div>
+        <div class="secondary-detail-div lowest-temperature"><span class="title">Lowest temperature</span><span class="data"></span></div>
+        <div class="secondary-detail-div wind"><span class="title">Wind</span><span class="data"></span></div>
+        <div class="secondary-detail-div clouds"><span class="title">Cloudy</span><span class="data"></span></div>
+        <div class="secondary-detail-div humidity"><span class="title">Humidity</span><span class="data"></span></div>
+        <div class="temp-toggle-div"><div class="temp-toggle"></div><span class="title">Display temperature in celcius</span></div>
+    </div>
 
 <script src="script.js"></script>
 </body>

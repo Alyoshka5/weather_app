@@ -26,13 +26,13 @@ body {
 }
 
 .temperature {
-    font-size: 6rem;
+    font-size: 8rem;
 }
 
 .location {
-    font-size: 4.5rem;
+    font-size: 6.5rem;
     position: relative;
-    bottom: -17px;
+    bottom: -15px;
 }
 
 .looks {
@@ -40,21 +40,21 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
-    bottom: 8px;
+    bottom: 15px;
 }
 
 .looks .look-main {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 .looks-image {
-    width: 90px;
+    width: 120px;
     position: relative;
-    bottom: -18px;
+    bottom: -30px;
 }
 
 .side-bar {
-    font-size: 20px;
+    font-size: 1.7rem;
     color: #ffffff;
     background-color: #00000050;
     backdrop-filter: blur(5px);
@@ -68,8 +68,10 @@ body {
 }
 
 .weather-form input {
+    font-size: 1rem;
     color: #fff;
     background-color: #00000000;
+    width: 250px;
     padding: 5px 10px;
     border: none;
     border-bottom: 1px solid rgb(186, 186, 186);
@@ -83,6 +85,7 @@ body {
 }
 
 .weather-form button {
+    font-size: 1rem;
     color: #fff;
     background-color: #00000000;
     border: none;
@@ -109,8 +112,8 @@ h4 {
 .temp-toggle {
     cursor: pointer;
     background-color: #ffffff4a;
-    width: 13px;
-    height: 13px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     border: 2px solid #000000aa;
 }
@@ -119,5 +122,5 @@ h4 {
 }
 
 .temp-toggle-div .title {
-    font-size: 1rem
+    font-size: 1.2rem
 }
